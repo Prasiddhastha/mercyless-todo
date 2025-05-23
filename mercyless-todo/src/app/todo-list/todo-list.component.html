@@ -1,0 +1,10 @@
+<div class="todo-container">
+  <app-todo-form (addTodo)="addTodo($event)"></app-todo-form>
+  <div *ngFor="let todo of todos" class="todo-item-container">
+    <app-todo-item 
+      [todo]="todo"
+      (toggleStatus)="toggleTodoStatus(todo)"
+      (delete)="deleteTodo(todo.id)">
+    </app-todo-item>
+  </div>
+</div>

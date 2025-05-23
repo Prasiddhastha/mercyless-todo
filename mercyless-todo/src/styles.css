@@ -1,0 +1,26 @@
+/* Dark Mode Styling */
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.dark-mode .app-container {
+  background-color: #444;
+}
+
+.dark-mode .todo-item-container {
+  background-color: #555;
+}
+
+.dark-mode .app-title {
+  color: #3498db;
+}
+
+.dark-mode input {
+  background-color: #555;
+  color: white;
+}
+
+.dark-mode button {
+  background-color: #2980b9;
+}
