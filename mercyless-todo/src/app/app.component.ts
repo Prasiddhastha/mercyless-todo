@@ -11,7 +11,7 @@ import { TodoListComponent } from './todo-list/todo-list.component';
 export class AppComponent {
   darkMode = false;
 
-  toggleDarkMode() {
+   toggleDarkMode() {
     this.darkMode = !this.darkMode;
     if (this.darkMode) {
       document.body.classList.add('dark-mode');
